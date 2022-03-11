@@ -2,6 +2,7 @@ import "./App.css";
 import React from "react";
 import { emptyGrid, randomGrid } from "./components/grids";
 import { onMouseDown, onMouseLeave, boxChoosing } from "./components/boxevents";
+
 import { useSimulation } from "./components/simulation";
 
 const numRows = 55;
